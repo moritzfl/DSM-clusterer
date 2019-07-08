@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df91ffad-1790-4532-9c3f-4c95d1bb9861" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Output.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/Clusterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/DummyClusterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/FernandezClusterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/FernandezMathClusterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/MacCormackClusterer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/common/Configuration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/common/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/common/Messages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/ClusteredMatrixDisplayPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/ColorRenderer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/DataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/ImageProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/MainPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/MatrixDisplayPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/MatrixInputPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/diagram/DiagramFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/main/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/tools/DSMInputException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/tools/DSMTools.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/allclasses-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/allclasses-noframe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/constant-values.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/deprecated-list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/help-doc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index-all.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/overview-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/overview-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/overview-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/package-list" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/resources/inherit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/Clusterer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/DummyClusterer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/FernandezClusterer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/FernandezMathClusterer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/MacCormackClusterer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/common/Configuration.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/common/Constants.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/common/Messages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/common/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/common/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/common/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/ClusteredMatrixDisplayPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/ColorRenderer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/DataController.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/ImageProducer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/MainPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/MatrixDisplayPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/MatrixInputPanel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/DiagramFrame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/HegemanDiagramFrame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/main/Main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/main/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/main/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/main/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/DSMInputException.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/DSMTools.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/serialized-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sdtv.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/callGraphMatrixD.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/callGraphMatrixS.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/callGraphMatrixSD.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/run.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/Clusterer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/DummyClusterer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/FernandezClusterer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/FernandezMathClusterer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/MacCormackClusterer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/common/Configuration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/common/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/common/Messages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel.bak2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ColorRenderer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/DataController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ImageProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel.bak" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$RandomInputPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$RandomInputPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/diagram/DiagramFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/diagram/HegemanDiagramFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/tools/DSMInputException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sdtv/tools/DSMTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/taskfile.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testDataFiles/callGraphMatrixD.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testDataFiles/callGraphMatrixS.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/taskfile.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testImage.png" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="application" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build setup" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="clustering" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/Clusterer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ImageProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradlew.bat">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/main/java</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/sdtv/gui/ImageProducer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1060" />
+    <option name="y" value="120" />
+    <option name="width" value="1742" />
+    <option name="height" value="1210" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.dsm-clusterer [run]">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sdtv.main.Main" />
+      <module name="clustering.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sdtv.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dsm-clusterer [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.dsm-clusterer [run]" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df91ffad-1790-4532-9c3f-4c95d1bb9861" name="Default Changelist" comment="" />
+      <created>1562593455424</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562593455424</updated>
+      <workItem from="1562593458523" duration="819000" />
+      <workItem from="1562596182877" duration="223000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1042000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1060" y="120" width="1742" height="1210" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3617647" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.22629696" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/Clusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ImageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|clustering</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

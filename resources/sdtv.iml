@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://D:/AmritC/Phd/Work/Programs/NetworkTest/library/colt.jar" />
+    <libelement value="file://D:/AmritC/Phd/Work/Programs/NetworkTest/library/commons-collections-3.2.jar" />
+    <libelement value="file://D:/AmritC/Phd/Work/Programs/NetworkTest/library/jung-1.7.6.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library">
+      <library name="colt.jar">
+        <CLASSES>
+          <root url="file://D:/AmritC/Phd/Work/Programs/NetworkTest/library/colt.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections-3.2.jar">
+        <CLASSES>
+          <root url="file://D:/AmritC/Phd/Work/Programs/NetworkTest/library/commons-collections-3.2.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jung-1.7.6.jar">
+        <CLASSES>
+          <root url="file://D:/AmritC/Phd/Work/Programs/NetworkTest/library/jung-1.7.6.jar" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

@@ -58,10 +58,10 @@ public class ImageProducer {
 		g2r.dispose();
 //		Now try the actual write
 		try {
-		ImageIO.write(image, "png", new File(“imagefile.png"));
+		ImageIO.write(image, "png", new File("imagefile.png"));
 		}
 		catch (IOException ioe) {
-		System.out.println(“Error in saving Image”);
+		System.out.println("Error in saving Image");
 		}
 		} 
 	*/
