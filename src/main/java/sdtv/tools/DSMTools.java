@@ -21,7 +21,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import sdtv.common.Configuration;
-import java.util.*; 
+import java.util.*;
+import java.util.logging.Logger;
 
 
 /**
@@ -34,7 +35,7 @@ public class DSMTools implements Configuration {
    // #edges = #vertices * DSM size^2 divided by this value
    // 5 seems to optimally represent a reasonable software architecture
    static public final int JUNGDEPENDENCYDIVIDER = 10;
-   
+	private static final Logger LOGGER = Logger.getLogger(DSMTools.class.getName());
     
    /** Reads a Software DSM from a file
     *@param ssFileName the name of the SDSM file
@@ -159,7 +160,7 @@ public class DSMTools implements Configuration {
     public static Map<Integer,Map<Integer, Double>> calcClusterDeps(Set<Set<Integer>> clusters, double[][] input) {
      // result is a map of integers to map of integers to doubles
      // this maps the cluster indices to (clusterindex, cost)
-     System.out.println("calculating cluster dependencies...");
+     LOGGER.info("calculating cluster dependencies...");
     	
 	    Map<Integer,Map<Integer, Double>> result = new HashMap<Integer,Map<Integer, Double>>();
 	    
@@ -180,9 +181,9 @@ public class DSMTools implements Configuration {
 	    }
 	    
 	    for (Map.Entry<Integer,Map<Integer,Double>> a : result.entrySet()) {
-	    	System.out.println("results for cluster " + a.getKey());
+	    	LOGGER.info("results for cluster " + a.getKey());
 	    	for (Map.Entry<Integer,Double> b : a.getValue().entrySet())
-	    		System.out.println("cluster " + b.getKey() + " - cost: " + b.getValue());
+	    		LOGGER.info("cluster " + b.getKey() + " - cost: " + b.getValue());
 	    }
 	    
 	    
@@ -204,7 +205,7 @@ public class DSMTools implements Configuration {
     	int j = 0,
     	 	k =0;
     	 	
-       	System.out.println("Calculating propagation cost...");
+       	LOGGER.info("Calculating propagation cost...");
        	//Setting the main diagonal to zero (no self loops)
        	for(j = 0; j < a.length; j++){
        		if(a[j][j] > 0)
@@ -243,7 +244,7 @@ public class DSMTools implements Configuration {
     		b = matrixPower(a, b);
     		result /= b.length;
     		counter++;
-    		System.out.println("done " + counter + " multiplications...");
+    		LOGGER.info("done " + counter + " multiplications...");
     	}while(result >0);
     	
     	result = 0.0;

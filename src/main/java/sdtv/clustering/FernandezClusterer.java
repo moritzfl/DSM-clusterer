@@ -210,10 +210,7 @@ public class FernandezClusterer implements Clusterer {
        }
        return result;
    }
-   
-   private void say(String msg) {
-       System.out.println(msg);
-   }
+
    
    private String clustersToString(List<List<Integer>> input) {
        StringBuffer result = new StringBuffer();

@@ -20,12 +20,15 @@ import java.util.List;
 import java.util.Set;
 
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
  * @author Erik
  */
 public class MacCormackClusterer implements Clusterer {
+
     
     public static final String ID = "MacCormackClusterer";
     
@@ -33,6 +36,7 @@ public class MacCormackClusterer implements Clusterer {
     private int stable_limit = 50; // number of unsuccesful cost reductions before ending.
     private int maxNumberOfClusters = 12;
     private String inputFile;
+    private static final Logger LOGGER = Logger.getLogger(MacCormackClusterer.class.getName());
 
     public static final int THRESHOLD = 0;
     
@@ -50,8 +54,8 @@ public class MacCormackClusterer implements Clusterer {
     		//outputStream = new PrintStream(new FileOutputStream("corePeriphery.out", true));
     	}
     	catch(IOException ex){
-    		System.out.println("sdtv.ini was not found, using default values.");
-                System.out.println(stable_limit);
+    		LOGGER.info("sdtv.ini was not found, using default values.");
+    		LOGGER.info(String.valueOf(stable_limit));
     	}
     }
     
@@ -59,13 +63,13 @@ public class MacCormackClusterer implements Clusterer {
     	try {
     		return clusterSoftwareDSM(DSMTools.readSDSM(inputFile));
     	} catch (Exception e) {
-    		System.out.println("Couldnt start clutserer " + e.getMessage());
+    		LOGGER.info("Couldnt start clutserer " + e.getMessage());
     		return null;
     	}
     }
     
     public Set<Set<Integer>> clusterSoftwareDSM(double[][] input) {
-        System.out.println("MacCormackClusterer starting");
+        LOGGER.info("MacCormackClusterer starting");
         
         List<List<Integer>> clusters = setInitialClusters(input);
         boolean stable = false;
@@ -89,7 +93,7 @@ public class MacCormackClusterer implements Clusterer {
         double costLimit = 200;
         
         DSMTools.printToFile("Initial total cost: " + totalcost);
-        System.out.println("Now busy with main clustering process...");
+        LOGGER.info("Now busy with main clustering process...");
         while (!stable) { // continue trying to optimize while this more or less has results..
             
             //select random module from random cluster
@@ -145,11 +149,11 @@ public class MacCormackClusterer implements Clusterer {
              }
             
              if (count % 100 == 0)
-             	System.out.println("totalclost " + totalcost + ", TRC: " + totalRecentDecrease + ", <1 to stop: " + (totalRecentDecrease / costLimit));
+             	LOGGER.info("totalclost " + totalcost + ", TRC: " + totalRecentDecrease + ", <1 to stop: " + (totalRecentDecrease / costLimit));
              
              count++;
         }
-        System.out.println("Done with Clustering! ");
+        LOGGER.info("Done with Clustering! ");
         DSMTools.printToFile("Resulting total cost: " + totalcost);
         //outputStream.println("Total clustered cost: " + totalcost);
         return buildResultSet(clusters);
@@ -168,7 +172,7 @@ public class MacCormackClusterer implements Clusterer {
           
         for (int i = 0; i < input.length; i++) // for all software modules...
            result.get(i % maxNumberOfClusters).add(new Integer(i));
-       System.out.println("done!");
+       LOGGER.info("done!");
        return result;
     }
     
@@ -257,7 +261,7 @@ public class MacCormackClusterer implements Clusterer {
                
           }
        }
-        System.out.println("done!");
+        LOGGER.info("done!");
        return totalcost;
     }
     

@@ -2,133 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df91ffad-1790-4532-9c3f-4c95d1bb9861" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Output.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/Clusterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/DummyClusterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/FernandezClusterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/FernandezMathClusterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/clustering/MacCormackClusterer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/common/Configuration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/common/Constants.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/common/Messages.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/ClusteredMatrixDisplayPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/ColorRenderer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/DataController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/ImageProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/MainPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/MatrixDisplayPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/MatrixInputPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/diagram/DiagramFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/main/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/tools/DSMInputException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/src/main/java/sdtv/tools/DSMTools.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/allclasses-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/allclasses-noframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/constant-values.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/deprecated-list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/help-doc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index-all.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/overview-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/overview-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/overview-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/package-list" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/resources/inherit.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/Clusterer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/DummyClusterer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/FernandezClusterer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/FernandezMathClusterer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/MacCormackClusterer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/clustering/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/common/Configuration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/common/Constants.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/common/Messages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/common/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/common/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/common/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/ClusteredMatrixDisplayPanel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/ColorRenderer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/DataController.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/ImageProducer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/MainPanel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/MatrixDisplayPanel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/MatrixInputPanel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/DiagramFrame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/HegemanDiagramFrame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/diagram/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/gui/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/main/Main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/main/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/main/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/main/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/DSMInputException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/DSMTools.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/package-frame.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/package-summary.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/sdtv/tools/package-tree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/serialized-form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sdtv.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.settings/org.eclipse.jdt.ui.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/callGraphMatrixD.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/callGraphMatrixS.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/callGraphMatrixSD.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/run.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/Clusterer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/DummyClusterer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/FernandezClusterer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/FernandezMathClusterer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/clustering/MacCormackClusterer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/common/Configuration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/common/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/common/Messages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel.bak2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ClusteredMatrixDisplayPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ColorRenderer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/DataController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/ImageProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MainPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixDisplayPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$RandomInputPanel$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel$RandomInputPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/MatrixInputPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/diagram/DiagramFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/gui/diagram/HegemanDiagramFrame.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/tools/DSMInputException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sdtv/tools/DSMTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/taskfile.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testDataFiles/callGraphMatrixD.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testDataFiles/callGraphMatrixS.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskfile.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testImage.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/sdtv.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sdtv.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/taskfile.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/taskfile.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezClusterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezClusterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdtv/clustering/MacCormackClusterer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdtv/clustering/MacCormackClusterer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -212,28 +101,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/Clusterer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezClusterer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ImageProducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+            <state relative-caret-position="1199">
+              <caret line="212" selection-start-line="212" selection-end-line="212" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezMathClusterer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+            <state relative-caret-position="588">
+              <caret line="126" column="69" lean-forward="true" selection-start-line="126" selection-start-column="69" selection-end-line="126" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/MacCormackClusterer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -242,24 +131,67 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="678">
+              <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/main/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="495">
+              <caret line="37" column="84" lean-forward="true" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/MainPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/MatrixDisplayPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-432">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/MatrixInputPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ColorRenderer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1062">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ClusteredMatrixDisplayPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-527">
+              <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -267,6 +199,10 @@
     </leaf>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>say</find>
+      <find>ini</find>
+    </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/main/java</dir>
     </dirStrings>
@@ -279,14 +215,18 @@
       <list>
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/sdtv/gui/ImageProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezClusterer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java" />
+        <option value="$PROJECT_DIR$/src/main/java/sdtv/clustering/MacCormackClusterer.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1060" />
-    <option name="y" value="120" />
-    <option name="width" value="1742" />
-    <option name="height" value="1210" />
+    <option name="x" value="248" />
+    <option name="y" value="38" />
+    <option name="width" value="2433" />
+    <option name="height" value="1485" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -305,6 +245,11 @@
             <path>
               <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,6 +272,24 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+              <item name="clustering" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
@@ -344,13 +307,17 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sdtv" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="diagram" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="clustering" type="b2602c69:ProjectViewProjectNode" />
               <item name="dsm-clusterer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sdtv" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -373,6 +340,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
@@ -428,6 +396,12 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructuralSearchPlugin">
+    <replaceConfiguration name="user defined" created="1562597301636" text="System.out.println($Parameter$)" recursive="false" caseInsensitive="true" type="JAVA" scope_type="PROJECT" scope_descriptor="" reformatAccordingToStyle="false" shortenFQN="false" replacement="LOGGER.info($Parameter$)" history="1">
+      <constraint name="__context__" within="" contains="" />
+      <constraint name="Parameter" within="" contains="" />
+    </replaceConfiguration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -439,18 +413,41 @@
       <option name="presentableId" value="Default" />
       <updated>1562593455424</updated>
       <workItem from="1562593458523" duration="819000" />
-      <workItem from="1562596182877" duration="223000" />
+      <workItem from="1562596182877" duration="504000" />
+      <workItem from="1562596861356" duration="706000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes to allow for compilation and execution">
+      <created>1562596443811</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562596443811</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changes to allow for compilation and execution">
+      <created>1562596565848</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562596565848</updated>
+    </task>
+    <task id="LOCAL-00003" summary="remove eclipse project files">
+      <created>1562596632768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562596632768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1042000" />
+    <option name="totallyTimeSpent" value="2029000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1060" y="120" width="1742" height="1210" extended-state="0" />
+    <frame x="248" y="38" width="2433" height="1485" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3617647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25930572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -458,8 +455,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32950467" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26417804" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,7 +473,7 @@
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" visible="true" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.23462985" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -489,34 +486,13 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Changes to allow for compilation and execution" />
+    <MESSAGE value="remove eclipse project files" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove eclipse project files" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/Clusterer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew.bat">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -525,10 +501,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/common/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/DataController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testImage.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Output.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ImageProducer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="63" column="50" selection-start-line="63" selection-start-column="50" selection-end-line="63" selection-end-column="50" />
+        <state relative-caret-position="768">
+          <caret line="62" column="32" selection-start-line="62" selection-start-column="32" selection-end-line="62" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/diagram/DiagramFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/Clusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/DummyClusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezMathClusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="126" column="69" lean-forward="true" selection-start-line="126" selection-start-column="69" selection-end-line="126" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/MatrixDisplayPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/MatrixInputPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ColorRenderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1062">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/ClusteredMatrixDisplayPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/FernandezClusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1199">
+          <caret line="212" selection-start-line="212" selection-end-line="212" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/gui/diagram/HegemanDiagramFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="70" column="42" lean-forward="true" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/tools/DSMTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="37" column="84" lean-forward="true" selection-start-line="37" selection-start-column="84" selection-end-line="37" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sdtv/clustering/MacCormackClusterer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="57" column="12" selection-start-line="57" selection-start-column="12" selection-end-line="57" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -582,7 +686,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>test|clustering</last-edited>
+          <last-edited>main|clustering</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

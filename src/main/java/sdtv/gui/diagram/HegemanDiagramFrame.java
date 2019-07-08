@@ -12,6 +12,7 @@ package sdtv.gui.diagram;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.util.Set;
+import java.util.logging.Logger;
 import javax.swing.ImageIcon;
 import javax.swing.JLabel;
 import sdtv.common.Constants;
@@ -24,7 +25,9 @@ public class HegemanDiagramFrame extends DiagramFrame implements Constants {
     
     // Defines the title of this diagram style
     static public final String ID = "HegemanDiagramStyle";
-    
+
+    private static final Logger LOGGER = Logger.getLogger(HegemanDiagramFrame.class.getName());
+
     // Defines the size (relative to frame) of the Inner circle (for developers)
     static public final int INNERCIRCLERADIUSDIVIDER = 4;
     static public final int DEVDIM = 10;
@@ -47,9 +50,9 @@ public class HegemanDiagramFrame extends DiagramFrame implements Constants {
             innerCircleRadius = DIAGRAMFRAMEWIDTH / INNERCIRCLERADIUSDIVIDER;
          
          
-         double anglePerDeveloper = 2 * Math.PI / (double)n;       
-         System.out.println(n);
-         System.out.println(anglePerDeveloper);
+         double anglePerDeveloper = 2 * Math.PI / (double)n;
+        LOGGER.info(String.valueOf(n));
+         LOGGER.info(String.valueOf(anglePerDeveloper));
          for (int i = 0; i < developerIcons.length; i++) {
              //in a 360 deg circle position everyone 200 pix from center
              double thisAngle = anglePerDeveloper * (i + 1);
@@ -63,9 +66,9 @@ public class HegemanDiagramFrame extends DiagramFrame implements Constants {
              JLabel imagelabel = new JLabel();
              imagelabel.setIcon(DEVELOPERICON);
              getContentPane().add(imagelabel);
-             
-             System.out.println(x);
-             System.out.println(y);
+
+             LOGGER.info(String.valueOf(x));
+             LOGGER.info(String.valueOf(y));
           
              
              setVisible(true);
